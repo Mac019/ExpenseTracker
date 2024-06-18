@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="se.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Expense Tracker</h1>
+        <div class="expense-form">
+            <div class="form-row">
+                <input type="text" id="expense-name" placeholder="Expense Name">
+                <input type="number" id="expense-amount" placeholder="Amount">
+            </div>
+            <div class="form-row">
+                <input type="date" id="expense-date">
+                <button id="add-expense-btn">Add Expense</button>
+            </div>
+        </div>
+        <ul id="expense-list"></ul>
+        <h2>Total: $<span id="total-amount">0</span></h2>
+    </div>
+    <script src="Tracker.js"></script>
+</body>
+</html>
